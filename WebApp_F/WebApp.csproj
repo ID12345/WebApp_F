@@ -67,11 +67,68 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="1.aspx" />
+    <Content Include="2.aspx" />
+    <Content Include="20211029%282%29.aspx" />
+    <Content Include="20211029%283%29.aspx" />
+    <Content Include="20211029%284%29.aspx" />
+    <Content Include="20211029.aspx" />
+    <Content Include="showtime.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
+    <Content Include="WebForm2.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="1.aspx.cs">
+      <DependentUpon>1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="1.aspx.designer.cs">
+      <DependentUpon>1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="2.aspx.cs">
+      <DependentUpon>2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="2.aspx.designer.cs">
+      <DependentUpon>2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="20211029%282%29.aspx.cs">
+      <DependentUpon>20211029%282%29.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="20211029%282%29.aspx.designer.cs">
+      <DependentUpon>20211029%282%29.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="20211029%283%29.aspx.cs">
+      <DependentUpon>20211029%283%29.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="20211029%283%29.aspx.designer.cs">
+      <DependentUpon>20211029%283%29.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="20211029%284%29.aspx.cs">
+      <DependentUpon>20211029%284%29.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="20211029%284%29.aspx.designer.cs">
+      <DependentUpon>20211029%284%29.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="20211029.aspx.cs">
+      <DependentUpon>20211029.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="20211029.aspx.designer.cs">
+      <DependentUpon>20211029.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="showtime.aspx.cs">
+      <DependentUpon>showtime.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="showtime.aspx.designer.cs">
+      <DependentUpon>showtime.aspx</DependentUpon>
+    </Compile>
     <Compile Include="WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -79,8 +136,16 @@
     <Compile Include="WebForm1.aspx.designer.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
     </Compile>
+    <Compile Include="WebForm2.aspx.cs">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm2.aspx.designer.cs">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="libman.json" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
